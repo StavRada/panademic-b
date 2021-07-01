@@ -29,6 +29,6 @@ namespace pandemic{
       virtual Player& treat(City c_);
 
       string role(){return type_player;};
-      Player& take_card(City c_);
+      virtual Player& take_card(City c_);
   };
 }
